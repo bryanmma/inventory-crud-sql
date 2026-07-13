@@ -12,13 +12,23 @@ A robust inventory management system for laptops, featuring full CRUD (Create, R
 ## Technical Context
 - **Language / Localization:** This project was developed in a Peruvian environment. Therefore, the user interface and variable names in the code are in Spanish.
 
-## Project Structure
-- `/config`: Database connection and configuration settings.
-- `/crud`: Core logic for managing inventory (Add, Read, Update, Delete).
-- `/data`: Storage for the inventory database and system logs.
-- `/utils`: Utility scripts, including CSV export functionality.
-- `main.py`: The main entry point and interactive menu.
-
 ## Prerequisites
 - **Python:** Version 3.8 or higher.
-- **Dependencies:** The project uses standard Python libraries, so no additional external installations are typically required for basic functionality.
+- **Libraries:** (Añade aquí si usas alguna, ej: `sqlite3` viene con Python, pero si usas algo más, ponlo).
+
+## Setup
+1. Clone the repository.
+2. Ensure the database file is placed in the `/data` directory.
+
+## Usage
+Run the main menu to interact with the system:
+```bash
+python main.py
+```
+
+## Project Structure
+* `/config`: Database connection and configuration settings.
+* `/crud`: Core logic for managing inventory (Add, Read, Update, Delete).
+* `/data`: Storage for the inventory database and system logs.
+* `/utils`: Utility scripts, including CSV export functionality.
+* `main.py`: The main entry point and interactive menu.
