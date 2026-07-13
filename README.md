@@ -10,8 +10,7 @@ A robust inventory management system for laptops, featuring full CRUD (Create, R
 - **Data Isolation:** Separates logic from data by utilizing a dedicated `/data` directory.
 
 ## Technical Context
-- **Language / Idioma:** This project was developed as a final assignment for a Python specialization course in Peru. Therefore, variable names and the user interface are in Spanish.
-  *(Este proyecto fue desarrollado como trabajo final para una especialización en Python en Perú. Por este motivo, los nombres de las variables y la interfaz de usuario están en español).*
+- **Language / Localization:** This project was developed in a Peruvian environment. Therefore, the user interface and variable names in the code are in Spanish.
 
 ## Project Structure
 - `/config`: Database connection and configuration settings.
